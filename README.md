@@ -1,2 +1,2 @@
 # tetris
-Programa para asignar color en una cuadricula 
+Practica de clase para seleccionar el color de cada cuadricula

@@ -1,11 +1,11 @@
-let container = document.querySelector(".container")
+let box = document.querySelector(".container")
 
 function changeColor(e){
     let colorOption = document.getElementById("colors").value
-    console.log(e.target.tagName)
+    //console.log(e.target.tagName)
     if (e.target.tagName ==="DIV"){
         e.target.style.backgroundColor = colorOption
     }
 }
 
-container.addEventListener("click", changeColor, true)
+box.addEventListener("click", changeColor, true)
