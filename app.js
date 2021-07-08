@@ -2,9 +2,10 @@ let boxes = document.querySelectorAll(".container div")
 console.log(boxes.length)
 
 for(let i=0;i<boxes.length;i++){
-    boxes[i].addEventListener("click", cambiarColor, true)
+    boxes[i].addEventListener("click", cambiarColor)
 }
 function cambiarColor(e){
+
     let colorOption = document.getElementById("colors").value
     if (e.target.tagName ==="DIV"){
         e.target.style.backgroundColor = colorOption
